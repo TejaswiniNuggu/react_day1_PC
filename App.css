@@ -1,0 +1,75 @@
+
+.unlimitedpp,.phnsupport,.subdomain,.statusreports,.statusreports2{
+ opacity: 0.3;
+
+}
+
+.fullpack{
+  background-color:blue;
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: cover;
+  padding: 10px;
+ justify-content: space-between;
+}
+.pack{
+  border-style:line solid;
+  border-radius: 30px;
+  padding:30px;
+  width: 100%;
+  align-items: center;
+  background-color:white;
+  /* text-decoration: solid; */
+  font-family:Arial, Helvetica, sans-serif;
+ text-decoration: solid;
+ font-size:15px;
+}
+
+.pricingsnips{
+  display: flex;
+  flex-direction: row;
+}
+@media (max-width:700px) {
+  .pricingsnips{
+    flex-direction: column;
+  }
+}
+.heading,.heading2,.heading3{
+  font-size: 15px;
+  text-align:center;
+  text-transform:uppercase;
+  font-weight: bold;
+  opacity: 0.4;
+  /* justify-content: space-between; */
+}
+.amt,.amt2,.amt3,.butn{
+  text-align:center;
+  font-size: 30px;
+  /* justify-content: space-between; */
+}
+.btn{
+  border-style: line-solid;
+  border-width: 1px;
+  border-radius:15px;
+  width: 100%;
+  background-color:rgb(74, 197, 239);
+  color:white;
+  font-size: 80%;
+  
+}
+.btn:hover{
+  background-color:rgb(24, 107, 135);
+}
+.mon{
+  color:black;
+  font-size: 15px;
+}
+.pack:hover{
+  margin-top: -.25rem;
+  margin-bottom: .25rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+}
+.un{
+  font-weight: bold;
+}
